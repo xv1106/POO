@@ -26,8 +26,6 @@ class Player
     player.gets_damage(damage)
   end
 
-  private
-
   def compute_damage
     rand(1..6)
   end
